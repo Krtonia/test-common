@@ -164,6 +164,11 @@ PRODUCT_PACKAGES += \
     init.qcom.usb.rc \
     init.qcom.usb.sh \
     init.recovery.qcom.rc \
+<<<<<<< HEAD
+=======
+    init.safailnet.rc \
+    init.performance_level.rc \
+>>>>>>> 20324ccb... sdm845-common: rootdir: Import init script for Gaming-Mode Performance
     ueventd.qcom.rc
 
 # Context Hub
