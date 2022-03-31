@@ -231,9 +231,15 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.software.freeform_window_management.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.software.freeform_window_management.xml
 
+<<<<<<< HEAD
 # fastbootd
 PRODUCT_PACKAGES += \
     fastbootd
+=======
+# Google Photos
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/configs/pixel/pixel_2016_exclusive.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/pixel_2016_exclusive.xml
+>>>>>>> 71ea8130... Import pixel_2016_exclusive.xml
 
 # Health
 PRODUCT_PACKAGES += \
